@@ -24,8 +24,8 @@ Incluye una estructura web semántica, diseño responsivo y secciones como:
 
 ## 🔗 Enlaces del Proyecto
 
-- 📁 [Repositorio en GitHub](https://github.com/damianclausi/Ifts29FrontendPFO1)  
-- 🌍 [Sitio en GitHub Pages](https://damianclausi.github.io/Ifts29FrontendPFO1/)  
+- 📁 [Repositorio en GitHub](https://github.com/damianclausi/portfoliopersonal)  
+- 🌍 [Sitio en GitHub Pages](https://damianclausi.github.io/portfoliopersonal/)  
 
 ---
 
