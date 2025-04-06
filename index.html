@@ -11,6 +11,10 @@
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <!-- Carga la biblioteca de íconos Font Awesome (una web externa) para el contacto de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
     
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
@@ -43,7 +47,7 @@
       </section>
       
       
-     <!-- Tarjetas de proyectos desarrollados -->
+      <!-- Tarjetas de proyectos desarrollados -->
       <section id="tarjetas">
         <h2>Proyectos</h2>
         <div class="contenedor-tarjetas">
@@ -152,9 +156,27 @@
       
     
     <!-- PIE DE PÁGINA -->
+    <!-- aria-label="GitHub"
+
+    Es un atributo de accesibilidad.
+    
+    Le dice a lectores de pantalla (por ejemplo, para personas ciegas) que este enlace lleva a GitHub, aunque el contenido sea solo un ícono visual.
+    
+    Mejora la usabilidad y accesibilidad web. -->
     <footer>
       <p>© 2025 - Mi Portafolio Personal</p>
-      <a href="#">Github</a> | <a href="#">LinkedIn</a>
+      <div class="contact-icons">
+        <a href="https://github.com/damianclausi" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i> <!-- Esto es el ícono de GitHub, gracias a Font Awesome. -->
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>  <!-- Esto es el ícono de LindedIn, gracias a Font Awesome. -->
+          
+
+
+        </a>       
+      </div>
     </footer>
+
   </body>
 </html>
